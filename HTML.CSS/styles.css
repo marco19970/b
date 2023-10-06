@@ -8,22 +8,22 @@ header{
     font-size: 15px;                /*coloca tamanho da fonte*/
     color: cadetblue;              /*coloca cor da fonte*/
     width: 100%;                     /*coloca largura da janela*/
-    height: 100px; /*coloca altura do espaço do cabeçalho*/
+    height: 115px; /*coloca altura do espaço do cabeçalho*/
     text-align: center;
     display: flex;
     justify-content: space-between; /*coloca espaço entre os objetos do cabeçalho*/
 }
 .butão-login{
     background-color: darkcyan;
-    border-radius: 60px;
+    border-radius: 20px;
 border: none;
 color: bisque;
 padding: 15px 32px;
 text-align: center;
 text-decoration: none;
-display: flex;
+display: inline-block;
 font-size: 20px;
-margin: 10px 20px;
+margin: -25px;
 transition-duration: 0.4s;
 cursor: pointer;
 background-image: -o-linear-gradient(to bottom, #5aa15e #adca5d);
@@ -36,9 +36,12 @@ background-color: brown;
 color: coral;
 box-shadow: 0px 8px 16px 0px rgba(209, 192, 192, 0.2);
 }
+
 .imagem{
     /*tamanho que a imagem tera na tela*/
     padding: 10px 10px;
+    display: flex;
+    
 }
 
 .titulo_pagina{
