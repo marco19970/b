@@ -1,7 +1,66 @@
-.cabeçalho{
-    background-color: blue;
+body{
+    background-color: chocolate;
+}
+
+header{
+    display: flex;
+    background-color: crimson; /*coloca cor de fundo*/ 
+    font-size: 15px;                /*coloca tamanho da fonte*/
+    color: black;              /*coloca cor da fonte*/
+    width: 100%;                     /*coloca largura da janela*/
+    height: 115px; /*coloca altura do espaço do cabeçalho*/
+    text-align: center;
+    display: flex;
+    justify-content: space-between; /*coloca espaço entre os objetos do cabeçalho*/
+}
+.butão-login{
+    background-color: midnightblue;
+    border-radius: 20px;
+border: none;
+color: azure;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 20px;
+margin: -25px;
+transition-duration: 0.4s;
+cursor: pointer;
+background-image: -o-linear-gradient(to bottom, #5aa15e #adca5d);
+
+}
+
+/*formatar o botao verde para mudar a cor do texto e colocar sombra quando o mouse passar em cima*/
+.butão-login:hover {
+background-color: darkslategrey ;
+color: azure;
+box-shadow: 0px 8px 16px 0px rgba(209, 192, 192, 0.2);
+}
+
+.imagem{
+    /*tamanho que a imagem tera na tela*/
+    padding: 10px 10px;
+    display: flex;
+    
+}
+
+.titulo_pagina{
+    color: blueviolet;
+    font-size: 25px;
+
+
+}
+footer{
+    background-color: darkred;
+    width: 55%;
+    height: 50px;
+    margin: 100px;
+    color: black;
+    margin: 40px;
+    padding: 20px 100px;
 }
 
 .rodapé{
-    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
 }
