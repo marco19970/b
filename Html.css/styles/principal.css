@@ -1,0 +1,12 @@
+.cabeçalho{
+    background-color: coral; /*coloca cor de fundo */
+    display: flex;
+    font-size: 2em;     /* coloca tamanho da fonte */
+    color: rgb(0, 0, 0);    /*coloca cor da fonte */
+    width: 100%;            /*coloca largura da janela */
+    height: 80px;           /*coloca altura do espaço do cabeçalho */
+    text-align: center;     /*alinha o texto do titulo */
+    justify-content: space-between; /*coloca espaço entre*/
+    align-items: center;
+    margin: lcqi;
+}
