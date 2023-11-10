@@ -1,66 +1,49 @@
+@import url(styles/header.css);
+@import url(styles/footer.css);
+@import url(styles/principal.css);
+@import url(styles/resset.css);
+
 body{
+    display: block;
     background-color: chocolate;
 }
 
 header{
-    display: flex;
-    background-color: aquamarine; /*coloca cor de fundo*/ 
-    font-size: 15px;                /*coloca tamanho da fonte*/
-    color: cadetblue;              /*coloca cor da fonte*/
-    width: 100%;                     /*coloca largura da janela*/
-    height: 115px; /*coloca altura do espaço do cabeçalho*/
-    text-align: center;
-    display: flex;
-    justify-content: space-between; /*coloca espaço entre os objetos do cabeçalho*/
+    background-color: crimson; 
+    width: 100%;                     
+    height: 80%;
 }
-.butão-login{
-    background-color: darkcyan;
-    border-radius: 20px;
+ .texto_da_pagina{
+    font-family: Verdana, Gavena, Tahoma, sans-serif;
+
+ }
+footer{
+    background-color: darkred;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    width: 100%;
+    height: 40px;
+}
+
+.container{
+    display: flex;
+    width: 500px;
+    height: 500px;
+    border: 10px;
+    padding: 10px 20px;
+    font-size: 30px;
+}
+
+.botao_login {
+background-color: midnightblue;
+border-radius: 20px;
 border: none;
-color: bisque;
+color: azure;
 padding: 15px 32px;
-text-align: center;
+text-align: right;
 text-decoration: none;
 display: inline-block;
 font-size: 20px;
-margin: -25px;
-transition-duration: 0.4s;
-cursor: pointer;
-background-image: -o-linear-gradient(to bottom, #5aa15e #adca5d);
-
-}
-
-/*formatar o botao verde para mudar a cor do texto e colocar sombra quando o mouse passar em cima*/
-.butão-login:hover {
-background-color: brown;
-color: coral;
-box-shadow: 0px 8px 16px 0px rgba(209, 192, 192, 0.2);
-}
-
-.imagem{
-    /*tamanho que a imagem tera na tela*/
-    padding: 10px 10px;
-    display: flex;
-    
-}
-
-.titulo_pagina{
-    color: blueviolet;
-    font-size: 25px;
-
-
-}
-footer{
-    background-color: brown;
-    width: 80%;
-    height: 40px;
-    margin: 40px;
-    color: antiquewhite; 
-    margin: 40px;
-    padding: 20px 100px;
-}
-
-.rodapé{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
+margin: 4px;
 }
